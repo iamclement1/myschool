@@ -10,6 +10,7 @@
 - Make your changes, add them and make your commits
 
   ```
+
   git commit -m "your message"
   ```
 
