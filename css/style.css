@@ -29,8 +29,8 @@
   align-items: center;
 }
 /*******
-
-/****** OUR SERVICE AND CAREER STYLE ******/
+ OUR SERVICE AND CAREER STYLE
+  ******/
 
 #boxes {
   text-align: center;
@@ -56,16 +56,6 @@
   font-weight: bold;
   color: #bf360c;
   text-align: center;
-}
-
-footer {
-  padding: 20px;
-  margin-top: 20px;
-  color: #000000;
-  background-color: #e8eaf6;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 /****STUDENT LOGIN PAGE******/
@@ -250,7 +240,7 @@ ADMINSTRATION LOGIN PAGE
 ****************************************************/
 body {
   background: #222d32;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .login-box {
@@ -285,7 +275,7 @@ body {
   text-align: left;
 }
 
-input[type='text'] {
+input[type="text"] {
   background-color: #1a2226;
   border: none;
   border-bottom: 2px solid #0db8de;
@@ -298,7 +288,7 @@ input[type='text'] {
   color: #ecf0f5;
 }
 
-input[type='password'] {
+input[type="password"] {
   background-color: #1a2226;
   border: none;
   border-bottom: 2px solid #0db8de;
@@ -374,4 +364,134 @@ label {
 
 .loginbttm {
   padding: 0px;
+}
+
+/**********
+FooTeR Style
+***********/
+footer {
+  padding: 5em 0 0 0;
+  color: #fff;
+  background-color: #0c0c0c;
+}
+/* footer-card syle */
+.footer-card {
+  background-color: rgb(25, 25, 25);
+  margin-bottom: 15px;
+  background: #191919;
+  color: #fff;
+  border-top: 4px solid #cc1616;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer-card h3 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+.footer-card p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #262626;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+footer .social-links a:hover {
+  background: #cc1616;
+  color: #fff;
+  text-decoration: none;
+}
+footer h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+/* footer-links edit */
+footer .foot-links {
+  margin-bottom: 30px;
+}
+footer .foot-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .foot-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+footer .foot-links ul li i {
+  padding-right: 5px;
+  color: #ed5b5b;
+  font-size: 0.8em;
+  line-height: 1;
+}
+
+footer .foot-links ul li a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  font-size: 0.8em;
+
+  text-decoration: none;
+}
+footer .foot-links ul li a:hover {
+  color: #eb4444;
+}
+
+/**** NEWS LETTER PAGE  ****/
+
+footer .newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4;
+}
+footer .newsletter p {
+  font-size: 0.8em;
+}
+
+footer .newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px;
+}
+footer .newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #cc1616;
+  color: #fff;
+  transition: 0.3s;
+  width: 30%;
+}
+
+footer .copyright {
+  border-top: 1px solid #262626;
+  text-align: center;
+  padding: 30px;
+  font-size: .9em;
 }
