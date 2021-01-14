@@ -5,98 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My School</title>
     <link rel="icon" type="img/png" href="./img/favicon.png" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Scrollbar Custom CSS -->
+
+    <link rel="stylesheet" href="./style/style.css" />
+
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <!-- <div class="first_header">
-      <div class="mail">
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:blessedmarcel1@gmail.com"> Send a mail..</a>
+    <nav
+      class="na navbar navbar-expand-md navbar-light bg-light fixed-top"
+      role="navigation"
+    >
+      <a class="navbar-brand" href="/" > My School </a>
+      <button
+        class="navbar-toggler pt-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admission</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Student</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Staff</a>
+        </li>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
       </div>
-      <div class="search">
-        <input type="text" placeholder="search" />
-        <button>Search</button>
-      </div>
-    </div> -->
-    <header>
-      <div class="container">
-        <div id="School-logo">
-          <h1><span class="highlight">My</span> School</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="admin.html">Admin</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    </nav>
+
+     <!--========== Our service ========-->
+
     <section id="showcase">
-      <div class="container">
-        <div class="overlay"></div>
-        <!-- <h1>WELCOME BACK TO SCHOOL</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          excepturi facilis, impedit ullam id et sint distinctio tenetur ducimus
-          non a quae hic odio fugit, quis debitis quas possimus placeat.
-        </p> -->
-      </div>
+        <div class="overlay text-light">
+            <div class="overlay-content container" mt-3>
+                <h1>WELCOME BACK TO SCHOOL</h1>
+                <p class="container py-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, eligendi. Magnam nobis excepturi
+                    atque
+                    deserunt repellat tenetur quam reprehenderit exercitationem repellendus aperiam, aut quisquam,
+                    obcaecati
+                    perspiciatis qui necessitatibus fuga voluptate.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--========== Our service ========-->
+    <section id="boxes" class="pt-5">
+        <div class="container pt-5">
+            <div class="row row-eq-height">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box-col">
+                        <img src="./img/female-student-17.png" alt="HTML5 Logo" class="service-image" />
+                        <h3 class="text-center">Choose a Career Path</h3>
+                        <p>
+
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam eum
+                            alias dolorum quo! Illum magni possimus sunt consequuntur, quidem
+                            atque quisquam, rerum aperiam illo adipisci ducimus fugit in
+                            voluptate modi unde ut vero ipsum minus aspernatur cupiditate
+                            commodi! Quod maxime,?
+                        </p>
+                        <a href="#">Start Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box-col">
+                        <img src="./img/staff.png" alt="" class="service-image" />
+                        <h3 class="text-center">Our Staffs</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                            soluta nostrum explicabo nihil suscipit blanditiis, molestiae
+                            aliquam expedita, quibusdam fugit corrupti atque natus quos aut id
+                            optio asperiores earum unde quas exercitationem ullam, dolorem
+                            maiores. Doloremque reiciendis nesciunt asperiores excepturi?
+                        </p>
+                        <a href="#">Meet Our Staff</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box-col">
+                        <img src="./img/unnamed.png" alt="" class="service-image" />
+                        <h3 class="text-center">Growth & Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                            dignissimos velit quis perspiciatis neque eveniet quo, dicta
+                            doloribus commodi eligendi. Itaque odit numquam nam libero
+                            blanditiis, ea aperiam? Sunt, labore numquam rerum cupiditate modi
+                            perspiciatis ex at eaque? Ea, modi!
+                        </p>
+                        <a href="#">Graduating Students</a>
+                    </div>
+                </div>
+                <div class="box">
+
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/female-student-17.png" alt="HTML5 Logo" />
-          <h3>Choose a Career Path</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam eum
-            alias dolorum quo! Illum magni possimus sunt consequuntur, quidem
-            atque quisquam, rerum aperiam illo adipisci ducimus fugit in
-            voluptate modi unde ut vero ipsum minus aspernatur cupiditate
-            commodi! Quod maxime, voluptate saepe error ipsam unde?
-          </p>
-          <a href="#">Start Now</a>
-        </div>
-        <div class="box">
-          <img src="./img/staff.png" alt="" />
-          <h3>Our Staffs</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            soluta nostrum explicabo nihil suscipit blanditiis, molestiae
-            aliquam expedita, quibusdam fugit corrupti atque natus quos aut id
-            optio asperiores earum unde quas exercitationem ullam, dolorem
-            maiores. Doloremque reiciendis nesciunt asperiores excepturi?
-          </p>
-          <a href="#">Meet Our Staff</a>
-        </div>
-        <div class="box">
-          <img src="./img/unnamed.png" alt="" />
-          <h3>Growth & Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-            dignissimos velit quis perspiciatis neque eveniet quo, dicta
-            doloribus commodi eligendi. Itaque odit numquam nam libero
-            blanditiis, ea aperiam? Sunt, labore numquam rerum cupiditate modi
-            perspiciatis ex at eaque? Ea, modi!
-          </p>
-          <a href="#">Graduating Students</a>
-        </div>
-      </div>
-    </section>
+
 
     <footer>
-      <p>MY SCHOOL &copy; 2020</p>
+        <p>MY SCHOOL &copy; 2020</p>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
