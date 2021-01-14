@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,8 +28,79 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+=======
+header {
+  background: #ede7f6;
+  color: #000000;
+  min-height: 70px;
+  box-shadow: 1px 1px 5px #d7ccc8;
+  position: absolute;
+  width: 100%;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  max-height: 70px;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+}
+.nav li a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition-duration: 1s;
+  font-weight: normal;
+}
+.nav a:hover {
+  color: #039c8d;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#school-logo h1 a {
+  color: #bf360c;
+  text-decoration: none;
+}
+
+#showcase {
+  background: url(../img/landpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*******
+ THIS STYLE BELOW CONTROLS THE HEIGHT OF THE LANDING PAGE IMAGE
+ ******/
+.overlay,
+.overlay-content,
+#showcase {
+  min-height: 100vh;
+>>>>>>> f29cafeeb5c99cc01406f87666bd63c96aa7cf48
+}
+/*******
+
+<<<<<<< HEAD
+=======
+ THIS STYLE ABOVE CONTROLS THE HEIGHT OF THE LANDING PAGE IMAGE
+ ******/
+.overlay {
+  background: rgba(0, 0, 0, 0.795);
+}
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+>>>>>>> f29cafeeb5c99cc01406f87666bd63c96aa7cf48
 /****** OUR SERVICE AND CAREER STYLE ******/
 
 #boxes {
@@ -64,5 +136,9 @@ footer {
   background-color: #e8eaf6;
   text-align: center;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> f29cafeeb5c99cc01406f87666bd63c96aa7cf48
 }
