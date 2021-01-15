@@ -240,7 +240,7 @@ ADMINSTRATION LOGIN PAGE
 ****************************************************/
 body {
   background: #222d32;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .login-box {
@@ -275,7 +275,7 @@ body {
   text-align: left;
 }
 
-input[type="text"] {
+input[type='text'] {
   background-color: #1a2226;
   border: none;
   border-bottom: 2px solid #0db8de;
@@ -288,7 +288,7 @@ input[type="text"] {
   color: #ecf0f5;
 }
 
-input[type="password"] {
+input[type='password'] {
   background-color: #1a2226;
   border: none;
   border-bottom: 2px solid #0db8de;
@@ -470,11 +470,11 @@ footer .newsletter p {
   font-size: 0.8em;
 }
 
-footer .newsletter form input[type="email"] {
+footer .newsletter form input[type='email'] {
   border: 0;
   padding: 4px;
 }
-footer .newsletter form input[type="submit"] {
+footer .newsletter form input[type='submit'] {
   position: absolute;
   top: 0;
   right: 0;
@@ -493,5 +493,5 @@ footer .copyright {
   border-top: 1px solid #262626;
   text-align: center;
   padding: 30px;
-  font-size: .9em;
+  font-size: 0.9em;
 }
