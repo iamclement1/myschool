@@ -22,22 +22,7 @@ a:focus {
   color: inherit;
   text-decoration: none;
   transition: all 0.3s;
-  color: #e8eaf6;
-}
-
-.navbar {
-  padding: 15px 10px;
-  background: #fff;
-  border: none;
-  border-radius: 0;
-  margin-bottom: 40px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-btn {
-  box-shadow: none;
-  outline: none !important;
-  border: none;
+  color: red;
 }
 
 .line {
@@ -64,7 +49,7 @@ span {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #e8eaf6;
+  background: #000;
   color: #000;
   transition: all 0.3s;
 }
@@ -116,7 +101,7 @@ span {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc;
+  /* background: #6d7fcc; */
 }
 
 #sidebar .sidebar-header strong {
@@ -126,7 +111,7 @@ span {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #47748b;
+  /* border-bottom: 1px solid #47748b; */
 }
 
 #sidebar ul li a {
@@ -138,6 +123,7 @@ span {
 #sidebar ul li a:hover {
   color: #000000;
   background: #fff;
+  text-decoration: none;
 }
 
 #sidebar ul li a i {
@@ -146,8 +132,8 @@ span {
 
 #sidebar ul li.active > a,
 a[aria-expanded='true'] {
-  color: #fff;
-  background: #6d7fcc;
+  /* color: #fff; */
+  /* background: #6d7fcc; */
 }
 
 a[data-toggle='collapse'] {
@@ -165,7 +151,7 @@ a[data-toggle='collapse'] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #6d7fcc;
+  /* background: #6d7fcc; */
 }
 
 ul.CTAs {
@@ -184,6 +170,46 @@ a.article,
 a.article:hover {
   background: #6d7fcc !important;
   color: #fff !important;
+}
+
+/*********************************
+Profile Upload
+*********************************/
+
+.caption div {
+  box-shadow: 0 0 5px #c8c8c8;
+  transition: all 0.3s ease 0s;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-circle {
+  border-radius: 0;
+}
+
+.ratio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+#welcome {
+  font-style: bold;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* ---------------------------------------------------
