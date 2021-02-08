@@ -378,7 +378,7 @@ footer {
 /* footer-card syle */
 .footer-card {
   background-color: rgb(25, 25, 25);
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   background: #191919;
   color: #fff;
   border-top: 4px solid #cc1616;
@@ -426,7 +426,7 @@ footer h4 {
 
 /* footer-links edit */
 footer .foot-links {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 footer .foot-links ul {
   list-style: none;
@@ -495,10 +495,4 @@ footer .copyright {
   text-align: center;
   padding: 30px;
   font-size: 0.9em;
-}
-
-/* ABOUT STYLING */
-.container {
-  width: 100%;
-  height: 30em;
 }
